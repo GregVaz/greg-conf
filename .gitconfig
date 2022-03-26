@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[user]
+  name = [name]
+  email = [email]
+[core]
+  editor = vim
+[alias]
+  a = add
+  s = status
+  c = checkout
+  cm = commit -m
+  br = branch
+  poh = push origin HEAD
+  f = fetch
+  fo = fetch origin
+  com = checkout master
+  
