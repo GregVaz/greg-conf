@@ -13,5 +13,4 @@
   poh = push origin HEAD
   f = fetch
   fo = fetch origin
-  com = checkout master
-  
+  cob = checkout -b
