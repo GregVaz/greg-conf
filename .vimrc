@@ -24,7 +24,7 @@ set nowb
 " Identation
 set smartindent
 set smarttab
-#set shiftwidth=2
+" set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set expandtab
@@ -43,14 +43,14 @@ nnoremap <silent> <C-p> :FZF<CR>
 
 " NERDTree shortcuts
 " nnoremap <C-k> :NERDTree<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <leader>f :NERDTreeFind<CR>
+" nnoremap <leader>n :NERDTreeFocus<CR>
+" nnoremap <C-t> :NERDTreeToggle<CR>
+" nnoremap <leader>f :NERDTreeFind<CR>
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
 " Start NERDTree when Vim is started without file arguments.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 
 
 " vim airline 
@@ -95,20 +95,20 @@ Plug 'vim-airline/vim-airline-themes'
 " Multiple cursors
 Plug 'terryma/vim-multiple-cursors'
 " Tree explorer plugin
-Plug 'preservim/nerdtree'
+" Plug 'preservim/nerdtree'
 " Close tag
 Plug 'alvan/vim-closetag'
 " Commentary
 Plug 'tpope/vim-commentary'
 " Programming
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'leafgarland/typescript-vim'
-Plug 'pangloss/vim-javascript'
-Plug 'hail2u/vim-css3-syntax'
-Plug 'ap/vim-css-color'
+" Plug 'vim-ruby/vim-ruby'
+" Plug 'tpope/vim-rails'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'pangloss/vim-javascript'
+" Plug 'hail2u/vim-css3-syntax'
+" Plug 'ap/vim-css-color'
 "" Intellisense
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 
